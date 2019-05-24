@@ -26,6 +26,6 @@ docker build . -t puppeteer-4464-demo -f Dockerfile && docker run --rm puppeteer
 ```
 <html><head></head><body>_â_</body></html>
 AssertionError [ERR_ASSERTION]: false == true
-    at /home/phihag/projects/div/puppeteer-4464-demo/demo.js:10:18
-    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+    at /puppeteer-4464-demo/demo.js:10:18
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
 ```
